@@ -19,7 +19,7 @@ class ViewController: UIViewController {
     
     let tweetCount = 100
     
-    let swifter = Swifter(consumerKey: "oAt6f6nrLAF9zTBPUGEftdoCU", consumerSecret: "Z386YjZwUHlqu0K3L93KqFLwLXQlUnPERMMo9ANpIBnqYlkmpO")
+    let swifter = Swifter(consumerKey: K.consumerKey, consumerSecret: K.consumerSecret)
     
     let sentimentClassifier = TextClassifier()
     
